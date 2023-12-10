@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-*{
+
+* {
     font-family: 'Lato', sans-serif;
 }
 
 
-#login, #banner{
+#login,
+#banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    background-color:rgb(253,202,8);
+    background-color: rgb(253, 202, 8);
     padding: 10%;
 }
-#banner{
+
+#banner {
     background-color: black;
 }
-form{
+
+form {
     display: flex;
     background-color: ;
     flex-direction: column;
@@ -24,4 +28,30 @@ form{
     background-color: black;
     border-radius: 5px;
     padding: 10%;
+}
+
+#actionButtoms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: ;
+}
+
+#home{
+    background-color: rgb(253, 202, 8);
+    height: 100vh;
+}
+
+.moves{
+    background-color: rgb(13, 110, 253);
+    color: white;
+    border-radius: 15px;
+    padding: 20%;
+    width: 70%;
+    height: 70%;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
