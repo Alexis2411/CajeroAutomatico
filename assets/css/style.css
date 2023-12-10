@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+
+#login, #banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color:rgb(253,202,8);
+    padding: 10%;
+}
+#banner{
+    background-color: black;
+}
+form{
+    display: flex;
+    background-color: ;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10%;
+}
